@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>aiba2.kml</name>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/pushpin/ylw-pushpin.png</href>
+			</Icon>
+			<hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+		</IconStyle>
+	</Style>
+	<Placemark>
+		<name>aiba2</name>
+		<styleUrl>#m_ylw-pushpin</styleUrl>
+		<Polygon>
+			<tessellate>1</tessellate>
+			<outerBoundaryIs>
+				<LinearRing>
+					<coordinates>
+						-45.97614183874415,-12.04485104671176,0 -45.97682098021363,-12.04740035691114,0 -45.97597798365897,-12.04957021308674,0 -45.97042984619763,-12.05867255809877,0 -45.96846737342891,-12.06057774985934,0 -45.96564640732853,-12.06115364856722,0 -45.96377260728337,-12.06065504838017,0 -45.95871156204649,-12.05788546131362,0 -45.95365603032173,-12.05469432575302,0 -45.9525996715544,-12.05310156814201,0 -45.95185238259007,-12.05149534491598,0 -45.95273575135644,-12.04779349543097,0 -45.95771897264162,-12.03991279040131,0 -45.95918061385012,-12.03810160743673,0 -45.96114769858519,-12.03700372463359,0 -45.96458232460643,-12.03706846256054,0 -45.9741090788123,-12.04294594800101,0 -45.97614183874415,-12.04485104671176,0 
+					</coordinates>
+				</LinearRing>
+			</outerBoundaryIs>
+		</Polygon>
+	</Placemark>
+</Document>
+</kml>
